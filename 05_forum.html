@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Forum</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles05.css">
+</head>
+
+<body>
+  <!-- Navbar menu --- to link to the rest of elements -->
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/02_modal.html">Modal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/03_timeline.html">Timeline<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/04_price_table.html">Price Table</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/05_forum.html">Forum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/06_resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/07_credit_card.html">Credit Card</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Input fields -->
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-4 col-md-6">
+        <h3>Forum</h3>
+      </div>
+      <div class="col-8 col-md-6 d-flex flex-row justify-content-end">
+          <div class="card">
+            <div class="card-body pt-0 pb-0">
+              <a href="#" class="">Forums</a><span class="colorgray"> |</span>  
+              <a href="#" class="under"> List of topics</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-md">This is the right place to discuss any ideas, feature requests and all the ideas regarding our website. Please follow
+        the forum rules and always check FAQ before posting to prevent duplicate posts.
+      </div>
+    </div>
+
+    <!-- List 1 -->
+
+    <div class="row">
+    
+      <!-- column 1 -->
+    
+      <ul class="pr-0 col-3 col-lg-1 list-group list-group-flush">
+        <li class="list-group-item border-top text-white bg-light-blue">.</li>
+        <li class="list-group-item gray border2px blue">
+          <i class="fas fa-question"></i>
+        </li>
+        <li class="list-group-item border-bottom-0 red">
+          <i class="fas fa-exclamation"></i>
+        </li>
+      </ul>
+    
+      <!-- column 2 -->
+    
+      <ul class="pr-0 col-9 col-lg-5 list-group list-group-flush">
+        <li class="list-group-item font-weight-bold text-nowrap font15 bg-light-blue">Important</li>
+        <li id="faqdescr" class="list-group-item text-nowrap pt-2 pb-2 gray border2px">
+          <div id="faq" class="p-0 text-nowrap font-weight-bold font11 blue">Frequently Asked Questions</div>
+          <div id="somedescr" class="p-0 text-nowrap font06">Some description</div>
+        </li>
+        <li id="impcat" class="list-group-item text-nowrap pt-2 pb-2 border-bottom-0">
+          <div id="importch" class="p-0 text-nowrap font-weight-bold font11 blue">Important changes</div>
+          <div id="catdescr" class="p-0 text-nowrap font06">Category description</div>
+        </li>
+      </ul>
+    
+      <!-- column 3 -->
+    
+      <ul class="pr-0 col-4 col-lg-2 list-group list-group-flush">
+        <li class="text-center list-group-item font08 font-weight-bold bg-light-blue">Topics</li>
+        <li class="text-center list-group-item font08 gray border2px blue">9 542</li>
+        <li class="text-center list-group-item font08 border-bottom-0 blue">6 532</li>
+      </ul>
+    
+      <!-- column 4 -->
+    
+      <ul class="pr-0 col-4 col-lg-2 list-group list-group-flush">
+        <li class="text-center list-group-item font08 font-weight-bold bg-light-blue">Posts</li>
+        <li class="text-center list-group-item font08 gray border2px blue">89 897</li>
+        <li class="text-center list-group-item font08 border-bottom-0 blue">152 123</li>
+      </ul>
+    
+      <!-- column 5 -->
+    
+      <ul class="pr-0 col-4 col-lg-2 list-group list-group-flush">
+        <li class="list-group-item font08 font-weight-bold bg-light-blue">Last Post</li>
+        <li id="jomonth" class="d-flex flex-column justify-content-center list-group-item pt-2 pb-2 font08 gray border2px">
+          <div id="jodoe" class="pt-0 pb-0 text-nowrap">by
+            <span id="jodeoelh" class="blue">John Doe</span>
+          </div>
+          <div id="months" class="pb-0 pb-0 text-nowrap">
+            <i class="fas fa-calendar-alt"></i> 3 months ago</div>
+        </li>
+        <li id="jamonth" class="d-flex flex-column justify-content-center list-group-item pt-2 pb-2 font08">
+          <div id="jadoe" class="pt-0 pb-0 text-nowrap">by
+            <span id="jadeoelh" class="blue">Jane Doe</span>
+          </div>
+          <div id="monthss" class="pb-0 pb-0 text-nowrap">
+            <i class="fas fa-calendar-alt"></i> 1 month ago</div>
+        </li>
+      </ul>
+
+    </div>
+    <!-- List 2 -->
+
+    <div class="row mt-5">
+    
+      <!-- column 1 -->
+    
+      <ul class="pr-0 col-3 col-lg-1 list-group list-group-flush">
+        <li class="list-group-item border-top text-white bg-light-blue">.</li>
+        <li class="list-group-item gray border2px blue">
+          <i class="fas fa-heart"></i>
+        </li>
+        <li class="list-group-item border-bottom-0 blue">
+          <i class="fas fa-magic"></i>
+        </li>
+      </ul>
+    
+      <!-- column 2 -->
+    
+      <ul class="pr-0 col-9 col-lg-5 list-group list-group-flush">
+        <li class="list-group-item font-weight-bold text-nowrap font15 bg-light-blue">Suggestions</li>
+        <li id="faqdescr" class="list-group-item text-nowrap pt-2 pb-2 gray border2px">
+          <div id="faq" class="p-0 text-nowrap font-weight-bold font11 blue">More more more</div>
+          <div id="somedescr" class="p-0 text-nowrap font06">Category description</div>
+        </li>
+        <li id="impcat" class="list-group-item text-nowrap pt-2 pb-2 border-bottom-0">
+          <div id="importch" class="p-0 text-nowrap font-weight-bold font11 blue">Haha</div>
+          <div id="catdescr" class="p-0 text-nowrap font06">Category description</div>
+        </li>
+      </ul>
+    
+      <!-- column 3 -->
+    
+      <ul class="pr-0 col-4 col-lg-2 list-group list-group-flush">
+        <li class="text-center list-group-item font08 font-weight-bold bg-light-blue">Topics</li>
+        <li class="text-center list-group-item font08 gray border2px blue">6 532</li>
+        <li class="text-center list-group-item font08 border-bottom-0 blue">6 532</li>
+      </ul>
+    
+      <!-- column 4 -->
+    
+      <ul class="pr-0 col-4 col-lg-2 list-group list-group-flush">
+        <li class="text-center list-group-item font08 font-weight-bold bg-light-blue">Posts</li>
+        <li class="text-center list-group-item font08 gray border2px blue">89 897</li>
+        <li class="text-center list-group-item font08 border-bottom-0 blue">152 123</li>
+      </ul>
+    
+      <!-- column 5 -->
+    
+      <ul class="pr-0 col-4 col-lg-2 list-group list-group-flush">
+        <li class="list-group-item font08 font-weight-bold bg-light-blue">Last Post</li>
+        <li id="jomonth" class="d-flex flex-column justify-content-center list-group-item pt-2 pb-2 font08 gray border2px">
+          <div id="jodoe" class="pt-0 pb-0 text-nowrap">by
+            <span id="jodeoelh" class="blue">Jane Doe</span>
+          </div>
+          <div id="months" class="pb-0 pb-0 text-nowrap">
+            <i class="fas fa-calendar-alt"></i> 3 months ago</div>
+        </li>
+        <li id="jamonth" class="d-flex flex-column justify-content-center list-group-item pt-2 pb-2 font08">
+          <div id="jadoe" class="pt-0 pb-0 text-nowrap">by
+            <span id="jadeoelh" class="blue">Jane Doe</span>
+          </div>
+          <div id="months2" class="pb-0 pb-0 text-nowrap">
+            <i class="fas fa-calendar-alt"></i> 1 month ago</div>
+        </li>
+      </ul>
+
+
+
+
+
+
+
+    </div>
+  </div>
+    
+    
+
+
+  <!-- Optional JavaScript -->
+
+
+
+  </script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

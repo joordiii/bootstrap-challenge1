@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Challenge</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <!-- Navbar menu --- to link to the rest of elements -->
+  <nav class="nav nav-pills flex-column flex-sm-row justify-content-center">
+    <a class="flex-sm-fill text-sm-center nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/index.html#">Home</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/02_modal.html#">Modal</a>
+    <a class="flex-sm-fill text-sm-center nav-link active" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/03_timeline.html#">Timeline</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/index.html#">Forum</a>
+  </nav>
+  <div class="container-input-fields">
+    <div class="cont pad">
+      <div class="input1">
+        <label for="chatinput-title">Title</label>
+        <input type='text' name='fname' class='chatinput-title' id='chatinput-title'>
+      </div>
+      <div class="input1">
+        <label for="chatinput-content">Content</label>
+        <input type='text' name='fname' class='chatinput-content' id='chatinput-content'>
+      </div>
+    </div>
+    <button onclick="launchTimeline(); toggle_visibility1(); addBorder1();" id="launch-button" type="button" class="mar btn btn-primary">
+      Launch 1st Post
+    </button>
+  
+    <div class="cont pad">
+      <div class="input1">
+        <label for="chatinput-title2">Title</label>
+        <input type='text' name='fname' class='chatinput-title' id='chatinput-title2'>
+      </div>
+      <div class="input1">
+        <label for="chatinput-content2">Content</label>
+        <input type='text' name='fname' class='chatinput-content' id='chatinput-content2'>
+      </div>
+    </div>
+    <button onclick="launchTimeline2(); toggle_visibility2(); addBorder2();" id="launch-button2" type="button" class="mar btn btn-primary">
+      Launch 2nd Post
+    </button>
+  </div>
+  <!-- Launch button -->
+
+  <div class="container">
+    <div class="row">
+      <!--COL 1-->
+      <div class="col-2 col-md">1</div>
+      <!--COL 2-->
+      <div id="card1" class="col-8 col-md-4 border-0">2
+        <div id="card11" class="card" style="width: 18rem; visibility: hidden;">
+          <div class="card-body">
+            <h5 id='printchatbox-title' class="card-title"></h5>
+            <p id='printchatbox-content' class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <!--COL 3-->
+      <div id="center-col-left" class="col-2 col-md-1 wid">3
+        <div id="semicercle1" class="semicircle1" style="visibility: hidden;">
+            <img src="images/circle_small.png" alt="circle">
+        </div>
+      </div>
+      <!--COL 4-->
+      <div id="center-col-right" class="col-2 col-md-1 wid">4
+        <div id="semicercle2" class="semicircle2" style="visibility: hidden;">
+            <img src="images/pix.png" alt="circle">
+        </div>
+      </div>
+      <!--COL 5-->
+      <div class="col-8 col-md-4 border-0">5
+        <div class="card border-0">
+          <div class="card-body" style="visibility: hidden;">
+          </div>
+        </div>
+      </div>
+      <!--COL 6-->
+      <div class="col-2 col-md">6</div>
+    </div>
+
+    <div class="row">
+      <!--COL 1-->
+      <div class="col-2 col-md">11</div>
+      <!--COL 2-->
+      <div id="card2" class="col-8 col-md-4 border-0">22
+        <div class="card border-0">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+      <!--COL 3-->
+      <div id="center-col-left2" class="col-2 col-md-1 wid">33
+        <div id="semicercle3" class="semicircle1" style="visibility: hidden;">
+            <img src="images/pix.png" alt="circle">
+        </div>
+      </div>
+      <!--COL 4-->
+      <div id="center-col-right2" class="col-2 col-md-1 wid">44
+        <div id="semicercle4" class="semicircle2" style="visibility: hidden;">
+            <img src="images/circle_small_right.png" alt="circle">
+        </div>
+      </div>
+      <!--COL 5-->
+      <div class="col-8 col-md-4 border-0">55
+        <div id="card22" class="card" style="width: 18rem; visibility: hidden;">
+          <div class="card-body">
+            <h5 id='printchatbox-title2' class="card-title"></h5>
+            <p id='printchatbox-content2' class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <!--COL 6-->
+      <div class="col-2 col-md">66</div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+
+  <script src="js.js"></script>
+
+
+  </script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

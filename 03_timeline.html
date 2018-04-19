@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Timeline</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles03.css">
+</head>
+
+<body>
+  <!-- Navbar menu --- to link to the rest of elements -->
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/02_modal.html">Modal</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/03_timeline.html">Timeline<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/04_price_table.html">Price Table</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/05_forum.html">Forum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/06_resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/jclotet/Documents/jordi/getapp/bootstrap/challenge1/07_credit_card.html">Credit Card</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Input fields -->
+
+  <div class="container-input-fields">
+    <div class="input-left">
+      <div class="cont pad">
+        <div class="input1">
+          <label for="chatinput-title">Title</label>
+          <input type='text' name='fname' class='chatinput-title' id='chatinput-title'>
+        </div>
+        <div class="input1">
+          <label for="chatinput-content">Content</label>
+          <input type='text' name='fname' class='chatinput-content' id='chatinput-content'>
+        </div>
+      </div>
+      <button onclick="addBorder3(); launchTimeline(); toggle_visibility1();" id="launch-button" type="button" class="mar btn btn-primary">
+        Launch 1st Post
+      </button>
+    </div>
+    <div class="input-left">
+      <div class="cont pad">
+        <div class="input1">
+          <label for="chatinput-title2">Title</label>
+          <input type='text' name='fname' class='chatinput-title' id='chatinput-title2'>
+        </div>
+        <div class="input1">
+          <label for="chatinput-content2">Content</label>
+          <input type='text' name='fname' class='chatinput-content' id='chatinput-content2'>
+        </div>
+      </div>
+      <button onclick="addBorder4(); launchTimeline2(); toggle_visibility2();" id="launch-button2" type="button" class="mar btn btn-primary">
+        Launch 2nd Post
+      </button>
+    </div>
+  </div>
+
+  <!-- Content -->
+
+  <div class="outer-cont">
+    <div class="lefty">
+      <div id="left-cont" class="left-cont">
+        <div id="card-left" class="card-space-left">
+          <div id="card11" class="card" style="max-width: 14rem;visibility: hidden;">
+            <div id="card-body" class="card-body">
+              <h5 id='printchatbox-title' class="card-title"></h5>
+              <p id='printchatbox-content' class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div id="pointer-space-right" class="pointer-space-right" style="visibility: hidden;">
+          <div class="arrow-right"></div>
+        </div>
+        <div id="semi-left" class="semi-left"></div>
+          <div id="semicircle1" class="semicircle1" style="visibility: hidden;">
+              <img src="images/circle_small_left.png" alt="circle">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="righty">
+      <div class="righty_50">
+        <div id="right-cont" class="right-cont">
+          <div class="semi-right">
+            <div id="semicircle2" class="semicircle2" style="visibility: hidden;">
+                <img src="images/circle_small_right.png" alt="circle">
+            </div>
+          </div>
+          <div class="pointer-space-left">
+            <div id="pointer-space-left" class="pointer-space-left" style="visibility: hidden;">
+              <div class="arrow-left"></div>
+            </div>
+          </div>
+          <div id="card22" class="card" style="max-width: 14rem; visibility: hidden;">
+            <div class="card-body">
+              <h5 id='printchatbox-title2' class="card-title"></h5>
+              <p id='printchatbox-content2' class="card-text"></p>
+            </div>
+          </div>
+          <div class="card-space-right"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <!-- Optional JavaScript -->
+
+  <script src="js.js"></script>
+
+
+  </script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

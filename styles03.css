@@ -1,0 +1,152 @@
+/* * {
+  outline: 1px solid blue;
+} */
+
+.container-input-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #474649;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.cont {
+  background-color: #474649;
+  color: white;
+}
+
+.printchatbox-title {
+  height: 30px;
+  color: #0675FF;
+}
+
+.printchatbox-content {
+  height: 30px;
+  color: #0675FF;
+}
+
+.outer-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 3vw;
+}
+
+.right-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.semi-left {
+  /* background-image: url("images/circle_small.png"); */
+  background-repeat: no-repeat;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+#card11 {
+  margin-left: 5vh;
+  max-width: 70vh;
+}
+
+.card-body {
+  background-color: rgb(214, 214, 214);
+  border: 2px solid rgb(214, 214, 214);
+}
+
+.arrow-right {
+  margin-top: 2vw;
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  
+  border-left: 10px solid rgb(214, 214, 214);
+}
+
+.semi-right {
+  /* background-image: url("images/circle_small.png"); */
+  background-repeat: no-repeat;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+#card22 {
+  margin-right: 5vh;
+  max-width: 70vh;
+}
+
+.arrow-left {
+  margin-top: 2vw;
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-right:10px solid rgb(214, 214, 214); 
+}
+
+@media (min-width: 825px) {
+  
+  .outer-cont {
+    display: inline;
+  }
+
+  .lefty {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50%;
+  }
+
+  .righty {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .righty_50 {
+    display: flex;
+    min-width: 50%;
+  }
+  
+  .left-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+  }
+  
+  .right-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-sizing: initial;
+  }
+  
+  .blue {
+    border-right: 3px solid blue;
+  }
+
+  .blue-left {
+    border-left: 3px solid blue;
+    margin-left: -3px;
+  }
+
+  #card11 {
+    min-width: 40vh;
+  }
+  
+  #card22 {
+    min-width: 40vh;
+  }
+  
+}

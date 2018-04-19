@@ -1,0 +1,140 @@
+/* * {
+  outline: 1px solid blue;
+} */
+
+/* #cu-over-check {
+  margin-bottom: 0px; 
+} */
+
+/* #cu-over-button-modal {
+  margin-top: 1.5vw;
+} */
+
+/* #cu-over-button-modal-white {
+  background-color: white;
+  border: 1px solid rgb(177, 177, 177);
+} */
+
+/* #cu-over-card1 {
+  margin: 2vw 0 4vw 0;
+} */
+
+/* #cu-over-card-body {
+  background-color: rgb(243, 243, 243);
+} */
+
+ 
+
+/* ul.small-tick {
+  list-style-image: url('images/small_tick_12.png');
+}*/
+
+li.intocard {
+  background-image: url('images/small_tick_12.png');
+  background-repeat: no-repeat;
+  background-position: 0px 50%;
+  margin-top: .8vw;
+  padding-left: 7px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+/* ---------  03_timeline -------------- */
+
+.container-input-fields {
+  display: flex;
+  flex-direction: row;
+  background-color: #474649;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.cont {
+  background-color: #474649;
+  color: white;
+}
+
+.printchatbox-title {
+  height: 30px;
+  color: #0675FF;
+}
+
+.printchatbox-content {
+  height: 30px;
+  color: #0675FF;
+}
+
+.pad {
+  padding-left: 5vh;
+}
+
+.mar {
+  margin-left: 5vh;
+}
+
+#card1 {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 0px;
+}
+
+.wid {
+  width: 20px;
+}
+
+.semicircle1 {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: .8rem;
+}
+
+
+#center-col-left {
+  padding-right: 0;
+}
+
+#center-col-right {
+  padding-left: 0;
+}
+
+#center-col-left2 {
+  padding-right: 0;
+}
+
+#center-col-right2 {
+  padding-left: 0;
+}
+
+.disp {
+  display: none;
+}
+
+.gray {
+  border-right: 1px solid rgb(179, 179, 179);
+}
+
+@media (min-width: 768px) {
+  
+  #center-col-left{
+    background-image: url(images/circle_small_left.png)
+  }
+  
+  #center-col-right{
+    background-image: url(images/circle_small_right.png)
+  }
+  
+  .semicircle2 {
+    padding-top: .8rem;
+  }
+  
+  
+}
+
+/* ---------  033_timeline -------------- */
+
+
+
+
+

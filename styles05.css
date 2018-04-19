@@ -1,0 +1,196 @@
+/* * {
+  outline: 1px solid blue;
+} */
+
+* {
+  line-height: 2.4rem;
+}
+
+ul {
+  font-size: .9rem;
+}
+
+#faqdescr {
+  line-height: 2.4rem;
+}
+
+#faq {
+  /* margin-left: -20px; */
+  padding-top: 10px;
+  margin-right: -20px;
+  line-height: 1.4rem;
+}
+
+#somedescr {
+  /* margin-left: -20px; */
+  margin-right: -20px;
+  line-height: 1.5rem;
+  padding-bottom: 10px;
+}
+
+#impcat {
+  line-height: 2.4rem;
+}
+
+#importch {
+  /* margin-left: -20px; */
+  padding-top: 10px;
+  margin-right: -20px;
+  line-height: 1.4rem;
+}
+
+#catdescr {
+  /* margin-left: -20px; */
+  margin-right: -20px;
+  line-height: 1.5rem;
+  padding-bottom: 10px;
+}
+
+#jodoe {
+  /* margin-left: -20px; */
+  padding-top: 10px;
+  margin-right: -20px;
+  line-height: 1.4rem;
+}
+
+#jodeoelh {
+  line-height: 1em;
+}
+
+#months {
+  /* margin-left: -20px; */
+  margin-right: -20px;
+  line-height: 1.5rem;
+  padding-bottom: 10px;
+}
+
+#jadoe {
+  /* margin-left: -20px; */
+  padding-top: 10px;
+  margin-right: -20px;
+  line-height: 1.4rem;
+}
+
+#jadeoelh {
+  line-height: 1em;
+}
+
+#monthss {
+  /* margin-left: -20px; */
+  margin-right: -20px;
+  line-height: 1.5rem;
+  padding-bottom: 10px;
+}
+
+#jodoe2 {
+  /* margin-left: -20px; */
+  padding-top: 10px;
+  margin-right: -20px;
+  line-height: 1.4rem;
+}
+
+#jodeoelh2 {
+  line-height: 1em;
+}
+
+#months2 {
+  /* margin-left: -20px; */
+  margin-right: -20px;
+  line-height: 1.5rem;
+  padding-bottom: 10px;
+}
+
+#jadoe2 {
+  /* margin-left: -20px; */
+  padding-top: 10px;
+  margin-right: -20px;
+  line-height: 1.4rem;
+}
+
+#jadeoelh2 {
+  line-height: 1em;
+}
+
+#months2 {
+  /* margin-left: -20px; */
+  margin-right: -20px;
+  line-height: 1.5rem;
+  padding-bottom: 10px;
+}
+
+ul li.font15 {
+  font-size: 1.5rem;
+}
+
+ul li.font11 {
+  font-size: 1.1rem;
+}
+
+ul li.font08 {
+  font-size: 0.8rem;
+}
+
+ul li div.font11 {
+  font-size: 1.1rem;
+}
+
+ul li div.font06 {
+  font-size: 0.6rem;
+}
+
+ul li.gray {
+  background-color: rgb(241, 241, 241);
+}
+
+ul li.bg-light-blue {
+  background-color: rgb(230, 242, 255);
+}
+
+ul li.border2px {
+  border-top: 2px solid rgb(185, 185, 185);
+}
+
+ul li.blue {
+  color: rgb(36, 131, 255);
+}
+
+ul li.red {
+  color: rgb(255, 36, 36);
+}
+
+ul li div.blue {
+  color: rgb(36, 131, 255);
+}
+
+ul li div span.blue {
+  color: rgb(36, 131, 255);
+}
+
+.under {
+  text-decoration: underline;
+}
+
+.colorgray {
+  color: rgb(194, 194, 194);
+}
+
+.card-body {
+  background-color: rgb(241, 241, 241); 
+}
+
+span.blue {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+@media (min-width: 992px) {
+
+  ul li.bg-light-blue {
+    background-color: transparent;
+  }
+
+}
+
+
+

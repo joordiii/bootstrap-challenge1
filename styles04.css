@@ -1,0 +1,141 @@
+/* * {
+  outline: 1px solid blue;
+} */
+
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vw;
+}
+
+.group-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10vw;
+}
+
+#group1-description {
+  border-bottom: 1px solid #dededf;
+  border-left: 1px solid #dededf;
+}
+
+#group2-description {
+  border-bottom: 1px solid #dededf;
+  border-left: 1px solid #dededf;
+}
+
+#group3-description {
+  border-bottom: 1px solid #dededf;
+  border-left: 1px solid #dededf;
+}
+
+#list-descriptions {
+  border-bottom: 1px solid #dededf;  
+}
+
+#list-basic {
+  border-right: 1px solid #dededf;
+  border-bottom: 1px solid #dededf;
+  min-width: 25%;
+}
+
+#list-item-basic {
+  background-color: #DE3444;
+  color: white;
+  height: 80px;
+  line-height: 55px;
+}
+
+#h80 {
+  height: 80px;
+}
+
+.group-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10vw;
+}
+
+#list-descriptions2 {
+  border-bottom: 1px solid #dededf;  
+}
+
+#list-basic2 {
+  border-right: 1px solid #dededf;
+  border-bottom: 1px solid #dededf;
+  min-width: 25%;
+}
+
+#list-item-basic2 {
+  background-color: #0675FF;
+  color: white;
+  height: 80px;
+  line-height: 55px;
+}
+
+#h802 {
+  height: 80px;
+}
+
+.group-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10vw;
+}
+
+#list-descriptions3 {
+  border-bottom: 1px solid #dededf;  
+}
+
+#list-basic3 {
+  border-right: 1px solid #dededf;
+  border-bottom: 1px solid #dededf;
+  min-width: 25%;
+}
+
+#list-item-basic3 {
+  background-color: #52A450;
+  color: white;
+  height: 80px;
+  line-height: 55px;
+}
+
+#h803 {
+  height: 80px;
+}
+
+@media (min-width: 768px) {
+  
+  .main-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3vw;
+  }
+
+  .vis {
+    display: none;
+  }
+
+  #list-basic {
+    border-right: 0;
+    border-bottom: 1px solid #dededf;
+    min-width: 25%;
+  }
+
+  #list-basic2 {
+    border-right: 0;
+    border-bottom: 1px solid #dededf;
+    min-width: 25%;
+  }
+
+  #list-basic3 {
+    border-right: 1px solid #dededf;
+    border-bottom: 1px solid #dededf;
+    min-width: 25%;
+  }
+  
+}

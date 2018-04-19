@@ -1,0 +1,111 @@
+/* * {
+  outline: 1px solid blue;
+} */
+
+/* .picandicons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.pic {
+  width: 300px;
+  height: 300px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-color: gray; 
+  background-image: url("images/monkey1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icons {
+  height: 100px;
+}
+
+.icondetail {
+  color: white;
+  border-radius: 5px;
+  font-size: 0.5em;
+}
+
+.card-body1 {
+  background-color: rgb(240, 240, 240);
+}
+
+#goo {
+  width: 40px;
+  height: 55px;
+  background-color: red;
+}
+
+#face {
+  width: 40px;
+  height: 55px;
+  background-color: #54689B;
+
+}
+
+#twi {
+  width: 40px;
+  height: 55px;
+  background-color: #58B1E5;
+}
+
+#lin {
+  width: 40px;
+  height: 55px;
+  background-color: #4583A9;
+}
+
+#git {
+  width: 40px;
+  height: 55px;
+  background-color: #181819;
+}
+
+#oth {
+  width: 40px;
+  height: 55px;
+  background-color: #CA9652;
+}
+
+/* div.icons i {
+  width: 40px;
+  height: 55px;
+} */
+
+.list-group {
+  margin-top: 5vw;
+  width: 50vh;
+}
+
+.border-red {
+  border-left: 4px solid red;
+}
+
+.color-red {
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .list-group {
+    margin-top: 2vw;
+    width: 40vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .list-group {
+    margin-top: 2vw;
+    width: 60vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .list-group {
+    margin-top: 2vw;
+    width: 70vh;
+  }
+}
