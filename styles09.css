@@ -1,0 +1,13 @@
+/* * {
+  outline: 1px solid blue;
+} */
+
+li.ticks {
+  background-image: url('images/small_tick_12.png');
+  background-repeat: no-repeat;
+  background-position: 0px 50%;
+  margin-top: .8vw;
+  padding-left: 7px;
+  vertical-align: middle;
+  display: table-cell;
+}
